@@ -1,0 +1,14 @@
+names:
+- not_properly_wearing
+- not_wearing_mask
+- wearing_mask
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: facemask-vucnu
+  url: https://universe.roboflow.com/yolov7-n1bli/facemask-vucnu/dataset/1
+  version: 1
+  workspace: yolov7-n1bli
+test: ../test/images
+train: Facemask-1/train/images
+val: Facemask-1/valid/images
